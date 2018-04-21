@@ -21,6 +21,9 @@ module BrotherEscp
       # Specify page length
       PAGE_LENGTH:              [0x1b, 0x28, 0x43, 2, 0],
 
+      # Specify Font
+      FONT:                     [0x1b, 0x6b, 8],
+
       # Feed control sequences
       CTL_LF:                   [0x0a],                               # Print and line feed
       CTL_FF:                   [0x0c],                               # Form feed
